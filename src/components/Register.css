@@ -1,0 +1,108 @@
+* {
+    margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#register {
+  display: flex;
+  flex-direction: column;
+
+  height: 60vh;
+  width: 25vw;
+  border: 2px solid rgb(26, 20, 20);
+  border-radius: 6px;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 100px;
+
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(241, 173, 95);
+}
+
+#register::before{
+  content:"";
+  background:url(https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80) no-repeat center center/cover;
+  height:100vh;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index: -5;
+  }
+
+.registerContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registerInpt{
+    display:block;
+    border:none !important;
+    background:azure !important;
+    color:rgb(4, 124, 124);
+    border-radius:6px;
+    padding:10px;
+    font-size:1.2rem;
+    margin-left: auto;
+    margin-bottom:10px;
+  margin-right: auto;
+    
+    /* direction: rtl; */
+
+  
+}
+.registerInpt:focus {
+    color:rgb(25, 25, 105);
+    outline:none;
+
+  }
+  :focus::placeholder{
+    color:transparent !important;
+    }
+
+.registerBtn{
+    display:block;
+    color:rgb(82, 47, 4);
+    background:rgb(243, 66, 66) !important;
+    font-size:1.2rem;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(48, 81, 151);
+    padding:2px 10px;
+    border-radius:6px;
+    margin-bottom: 10px;
+}
+.txt{
+    display:block;
+    color:rgb(14, 5, 94);
+    font-size:1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* float: left; */
+    margin-top:10px;
+    /* margin-bottom:20px; */
+    /* border:1px solid red; */
+    text-align:left;
+
+    
+}
+
+.links{
+    text-decoration: none;
+}
+
+.registerBtn2{
+    display:block;
+    color:rgb(247, 22, 6);
+    background:rgb(245, 184, 184) !important;
+    font-size:1.2rem;
+    border: 1px solid rgb(7, 55, 158);
+    padding:2px 10px;
+    border-radius:6px;
+    margin-top:10px;
+    margin-right:auto;
+    margin-left:0;
+}
